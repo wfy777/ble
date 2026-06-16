@@ -22,13 +22,13 @@ Desktop BLE host application for scanning, connecting, GATT traffic, and Excel-b
 ## Run from source
 
 ```bash
-python ble2.py
+python ble.py
 ```
 
 ## Build executable
 
 ```bash
-python -m PyInstaller ble2.spec --clean --noconfirm
+python -m PyInstaller ble.spec --clean --noconfirm
 ```
 
 Output: `dist/BLE_Industrial_Tool.exe`
@@ -42,4 +42,3 @@ This program is free software: you can redistribute it and/or modify it under th
 See [LICENSE](LICENSE) for the full text.
 
 If you distribute a compiled executable, you must also provide the corresponding source code or a written offer to obtain it, as required by the GPL.
-# ble
